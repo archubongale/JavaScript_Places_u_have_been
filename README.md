@@ -1,16 +1,23 @@
-# Application Name
+# Places you have been.
 
-##### _{Brief description of application}, {Date of current version}_
+##### Date of current version_
 
-#### By **Molly Waggett**
+#### By **Molly Waggett and Archana Bongale**
 
 ## Description
 
-{This is a detailed description of your application. Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. Do you want other developers to use this code in their apps? Talk about things like that here in simple terms.}
+The website where you can enter places you've been. Each place will be an object that can have a couple different properties, like location, landmarks, time of year, notes, etc. Then displays those properties when a user clicks on each place.
 
 ## Setup
 
-* Clone this repository.
+* Clone this git repository on your computer
+git clone https://github.com/archubongale/JavaScript_Places_u_have_been.git
+
+*To open in your browser, navigate to correct directory
+cd path/to/JavaScript_Places_u_have_been
+and type
+open index.html
+
 
 ## Technologies Used
 
@@ -21,7 +28,7 @@
 
 ### Legal
 
-Copyright (c) 2015 **Molly Waggett**
+Copyright (c) 2015 **Molly Waggett and Archana Bongale**
 
 This software is licensed under the MIT license.
 
