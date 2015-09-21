@@ -18,11 +18,16 @@
           <div class="form-group">
             <label for = "new-location">Add a location:</label>
             <input id="new-location" type="text" class="form-control" required="">
-            <label for = "landmarks">Add a landmark:</label>
-            <input id="landmarks" type="text" class="form-control" required="">
             <label for = "timeofyear">Add a time of year:</label>
             <input id="timeofyear" type="text" class="form-control" required="">
+
+            <div class="addLandmark">
+            <label for = "landmarks">Add a landmark:</label>
+            <input type="text" class="form-control landmarks" required="">
+            </div>
+
           </div>
+          <span class="btn btn-primary" id="add-landmark">Add another landmark</span>
           <button type="submit" class="btn">Submit</button>
         </form>
       </div>
@@ -39,8 +44,10 @@
             <h2></h2>
 
             <!-- <p>Location: <span class="location"></span></p> -->
-            <p>Landmark: <span class="landmark"></span></p>
             <p>Time of Year: <span class="timeofyear"></span></p>
+            <p>Landmarks:
+              <ul class="landmark"></ul>
+            </p>
           </div>
         </div>
       </div>
