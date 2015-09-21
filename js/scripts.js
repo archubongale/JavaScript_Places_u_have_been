@@ -12,6 +12,14 @@ $(document).ready(function() {
     $("input#landmarks").val("");
     $("input#timeofyear").val("");
 
+    $(".clickable").last().click(function() {
+      $("#show-place").show();
+      $("#show-place h2").text(newPlace.location);
+      $(".landmark").text(newPlace.landmarks);
+      $(".timeofyear").text(newPlace.timeOfYear);
+
+    });
+
     $(".result").show();
   });
 });
